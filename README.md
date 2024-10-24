@@ -6,4 +6,4 @@ Open Data Management A.A 2022/2023 - Prof. Davide Taibi
 
 Team: Andrea Spinelli, Marco Valenti, Raffaele Terracino
 
-Obiettivo: sviluppo di una base di conoscenza RDF sulla sanità siciliana
+Realizzazione, in Team, di una conoscenza di dati in formato 5 stelle a partire da un dataset in formato a 2 stelle a scelta, con applicativo bot per Telegram.
