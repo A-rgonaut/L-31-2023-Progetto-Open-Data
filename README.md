@@ -45,17 +45,7 @@ To run this project, you need to set up both the data transformation scripts (op
     source venv/bin/activate
     ```
 
-3.  **Install Dependencies**
-    The project has two main components with their own requirements. Install them both.
-    ```bash
-    # Install requirements for the Telegram Bot
-    pip install -r HealthCareBot/requirements.txt
-
-    # Install requirements for the RDF creation scripts
-    pip install -r RDF_creation/requirements.txt
-    ```
-
-4.  **Configure the Telegram Bot**
+3.  **Configure the Telegram Bot**
     You need to provide your own Telegram Bot API token.
 
     *   First, get a token from the [BotFather](https://t.me/botfather) on Telegram.
@@ -70,7 +60,7 @@ To run this project, you need to set up both the data transformation scripts (op
     TELEGRAM_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN" 
     ```
 
-5.  **Run the Telegram Bot**
+4.  **Run the Telegram Bot**
     Now you are ready to launch the bot. Make sure you are in the `HealthCareBot` directory.
     ```bash
     # Navigate to the bot's directory
@@ -110,8 +100,8 @@ python create_RDF.py
     **User Interface**: It provides a simple and intuitive interface via a Telegram bot, allowing anyone to “talk” to the data without needing to know complex query languages such as SPARQL.
 
     **Functional Queries**: The bot allows you to perform searches and obtain useful information, such as:
-    Finding pharmacies/drugstores in a given city.
-    Searching for healthcare institutions by name.
-    Obtaining specific details about an institution (e.g., address, hours, VAT number).
+    - Finding pharmacies/drugstores in a given city.
+    - Searching for healthcare institutions by name.
+    - Obtaining specific details about an institution (e.g., address, hours, VAT number).
 
     **Natural Language Interactio**n: The user can interact with the bot using simple and direct commands (e.g., /search_pharmacies Rome).
