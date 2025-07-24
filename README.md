@@ -28,8 +28,8 @@ To run this project, you need to set up both the data transformation scripts (op
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/A-rgonaut/L-31-2023-Progetto-Open-Data.git
-    cd L-31-2023-Progetto-Open-Data
+    [git clone https://github.com/A-rgonaut/L-31-2023-Progetto-Open-Data.git](https://github.com/A-rgonaut/L-31_HealthGraph_A_5-Star_Knowledge_Graph_of_Sicilian_Health_Services.git)
+    cd L-31_HealthGraph_A_5-Star_Knowledge_Graph_of_Sicilian_Health_Services
     ```
 
 2.  **Set Up a Virtual Environment (Recommended)**
